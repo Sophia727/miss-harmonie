@@ -5,10 +5,10 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className=" text-black font-light sticky top-0 lg:w-screen align-middle mx-auto md:m-0 md:flex justify-between bg-myPink z-50 py-0 ">
+    <div className=" text-black font-light sticky top-0 lg:w-screen align-middle mx-auto md:m-0 md:flex justify-between bg-myPink z-50 py-0 lg:px-[5rem]">
       <div className="flex justify-between ">
         <a href="#home" className="p-0">
-          <img src={logo} alt="Miss Harmonie logo" className="w-32 lg:w-[180px]" />
+          <img src={logo} alt="Miss Harmonie logo" className="w-32 lg:w-[180px] " />
         </a>
         <button
           onClick={() => setOpen(!open)}

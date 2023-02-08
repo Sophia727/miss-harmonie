@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import mani_cover from "../assets/mani.jpeg";
 import mani_lg from "../assets/mani-lg.jpeg";
-import Button from "../commponents/Button";
+// import Button from "../commponents/Button";
 import { aboutIcons } from "../Data";
+import Button from "../components/Button";
 
 function Home() {
   const [icons, setIcons] = useState(null);
@@ -51,7 +52,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-around md:flex-row bg-myGB gap-8 md:gap-0 p-5 mt-[14px] md:p-3 duration-300 ">
+      <div className="flex flex-col justify-around md:flex-row bg-myGB gap-8 md:gap-0 p-5 mt-[14px] md:p-3 duration-300 lg:px-[10rem]">
         {aboutIcons.map((icon) => {
           return (
             <div

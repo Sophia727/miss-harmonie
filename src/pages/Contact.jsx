@@ -1,8 +1,10 @@
 import emailjs from "emailjs-com";
 import React, { useRef } from "react";
 import Iframe from "react-iframe";
-import Button from "../commponents/Button";
-import SectionTitle from "../commponents/SectionTitle";
+import Button from "../components/Button";
+// import Button from "../commponents/Button";
+import SectionTitle from "../components/SectionTitle";
+// import SectionTitle from "../commponents/SectionTitle";
 import { ContactInfo } from "../Data";
 
 function Contact() {
@@ -28,7 +30,7 @@ function Contact() {
     form.current.reset();
   }
   return (
-    <div className=" w-auto flex flex-col pt-10 bg-myPink">
+    <div className="lg:px-[5.5rem] w-auto flex flex-col pt-8 bg-myPink">
       <SectionTitle title="Contactez nous!" />
       <div id="contact" className="p-8 mt-6 md:flex-row-reverse md:align-middle md:flex md:gap-5 md:text-sm lg:flex md:justify-center">
 
@@ -37,7 +39,7 @@ function Contact() {
             onSubmit={sendEmail}
             ref={form}
             method="post"
-            className="flex flex-col justify-center space-y-2 lg:w-[700px] md:w-[400px] md:p-5 lg:space-y-5 border-myDarkBeige text-myBrown font-semibold font-['TT Norms"
+            className="flex flex-col justify-center space-y-2 lg:w-[600px] md:w-[400px] md:p-5 lg:space-y-5 border-myDarkBeige text-myBrown font-semibold font-['TT Norms"
           >
             <input
               className="bg-myPink p-2 border-myLightBlue border-solid border-2  border-myDarkBeige"

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import SectionTitle from '../commponents/SectionTitle'
+import SectionTitle from '../components/SectionTitle';
+// import SectionTitle from '../commponents/SectionTitle'
 import { services } from '../Data';
 
 function Services() {
@@ -9,7 +10,7 @@ function Services() {
   }, []);
 
   return (
-    <div className='bg-myPink lg:mt-16 mt-10'>
+    <div className='bg-myPink lg:mt-16 mt-10 lg:px-[5.5rem]'>
       <SectionTitle title="Nos Services"/>
 
       <div id='services' className=' md:grid md:grid-cols-3 md:gap-5 md:py-0 gap-5 mx-10 py-10 my-10 flex lg:grid lg:grid-cols-3 flex-col mb-10 justify-around'>

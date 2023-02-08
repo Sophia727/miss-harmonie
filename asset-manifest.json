@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/miss-harmonie/static/css/main.0a346f62.css",
+    "main.js": "/miss-harmonie/static/js/main.58ebc394.js",
+    "static/media/lashes.jpg": "/miss-harmonie/static/media/lashes.1d05f6af6ccdcc6b4a56.jpg",
+    "static/media/thera.jpg": "/miss-harmonie/static/media/thera.64f52b6f0ed0c8b83fac.jpg",
+    "static/media/mass.jpg": "/miss-harmonie/static/media/mass.fc08de04e4dcc12e738e.jpg",
+    "static/media/microblading.jpg": "/miss-harmonie/static/media/microblading.46a00f87ac6d2d6069a9.jpg",
+    "static/media/pmu.webp": "/miss-harmonie/static/media/pmu.465a2eaef26b5337e056.webp",
+    "static/media/nails.jpg": "/miss-harmonie/static/media/nails.6d6e2bbd7f92faa3b51e.jpg",
+    "static/media/facial.jpg": "/miss-harmonie/static/media/facial.a203c7d2fccc575631c2.jpg",
+    "static/media/massage.jpg": "/miss-harmonie/static/media/massage.06a9fcdcd9149d66da57.jpg",
+    "static/media/salon_interior.jpg": "/miss-harmonie/static/media/salon_interior.977bb26b6e5e073ac5d6.jpg",
+    "static/media/mani.jpeg": "/miss-harmonie/static/media/mani.2b370a396ced224756cd.jpeg",
+    "static/media/mani-lg.jpeg": "/miss-harmonie/static/media/mani-lg.4c3cbb57e4354374e960.jpeg",
+    "static/media/missharmonie_logo.png": "/miss-harmonie/static/media/missharmonie_logo.7273e730cbf44e2ef9c6.png",
+    "static/media/janna.jpeg": "/miss-harmonie/static/media/janna.ba8be70eb8f0a039b73b.jpeg",
+    "index.html": "/miss-harmonie/index.html",
+    "main.0a346f62.css.map": "/miss-harmonie/static/css/main.0a346f62.css.map",
+    "main.58ebc394.js.map": "/miss-harmonie/static/js/main.58ebc394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a346f62.css",
+    "static/js/main.58ebc394.js"
+  ]
+}
